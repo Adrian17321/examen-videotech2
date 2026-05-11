@@ -13,7 +13,7 @@ public class Class1
             lista.Add(new Pelicula("Origen", "Christopher Nolan", 2010, true));
 
             Console.WriteLine("--- TODAS LAS PELÍCULAS ---");
-            [cite_start] foreach (Pelicula p in lista) 
+          foreach (Pelicula p in lista) 
             
                 Console.WriteLine(p.ToString());
             }
@@ -21,7 +21,7 @@ public class Class1
             Console.WriteLine("\n--- PELÍCULAS DE NOLAN ---");
             foreach (Pelicula p in lista)
             {
-                [cite_start] if (p.getDirector().Contains("Nolan"))
+            if (p.getDirector().Contains("Nolan"))
                 {
                     Console.WriteLine(p.ToString());
                 }
