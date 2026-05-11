@@ -1,0 +1,13 @@
+a) El símbolo - aparece delante de los atributos y el + delante de los métodos. ¿Qué significa cada
+uno en términos de visibilidad?
+
+- El símbolo - indica que el atributo o método es privado, lo que significa que solo puede ser accedido dentro de la clase en la que está definido. No puede ser accedido desde fuera de la clase.
+- El símbolo + indica que el atributo o método es público, lo que significa que puede ser accedido desde cualquier parte del programa, incluyendo otras clases.
+
+b) ¿Qué tipo de dato es disponible y que dos valores puede tener?
+
+- El tipo de dato disponible es el booleano (bool) y puede tener dos valores: true (verdadero) y false (falso). Este tipo de dato se utiliza para representar condiciones lógicas y tomar decisiones en el código.
+
+c) Para qué sirve el método ToString() en una clase de C#?
+
+- El método ToString() en una clase de C# se utiliza para proporcionar una representación en forma de cadena (string) de un objeto. Cuando se llama a este método, devuelve una cadena que representa el estado o la información relevante del objeto. Esto es útil para mostrar información sobre el objeto de manera legible, especialmente cuando se imprime o se muestra en la consola. Si no se sobrescribe el método ToString(), la implementación predeterminada devolverá el nombre completo de la clase del objeto.
