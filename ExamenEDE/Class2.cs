@@ -5,7 +5,7 @@ public GestorBD()
 MySqlConnectionStringBuilder builder = new MySqlConnectionStringBuilder(); builder.Server = "localhost";
 builder.UserID = "root"; 
     builder.Password = ""; 
-    builder.Database = "videotech";
+    builder.Database = "EDE";
 
 conexion = new MySqlConnection(builder.ToString());
 }
@@ -37,7 +37,7 @@ public List<Pelicula> ObtenerTodos()
     MySqlCommand cmd = new MySqlCommand(query, conexion);
     MySqlDataReader res = cmd.ExecuteReader();
 
-    [cite_start] while (res.Read())
+   while (res.Read())
     {
         string titulo = res.GetString(0);
         string director = res.GetString(1);
